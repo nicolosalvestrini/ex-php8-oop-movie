@@ -1,11 +1,7 @@
 <?php
+require_once 'db.php';
 require_once 'Models/movie.php';
 require_once 'Models/Genre.php';
-
-$films = [
-    new Movie("Furious 7", "James Wan", 2015),
-    new Movie("My Name is Nobody", "Tonino Valerii", 1973)
-];
 
 ?>
 <!DOCTYPE html>
