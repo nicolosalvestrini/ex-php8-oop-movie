@@ -1,10 +1,10 @@
 <?php
-class Movie {
+class Movie extends Genre {
     public $title;
     public $director;
     public $releaseYear;
 
-    function __construct($title, $director, $releaseYear) {
+    function __construct($title, $director, $releaseYear, ) {
         $this->title = $title;
         $this->director = $director;
         $this->releaseYear = $releaseYear;
